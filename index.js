@@ -21,7 +21,7 @@ app.use('/api/report', report)
 app.use('/', (req, res) => {
   res.json({
     status: 'success',
-    message: 'This is API for Riliv Back End Development Test'
+    message: 'This is API for Riliv Back End Development Test. Docs here https://github.com/ganta-dev/Riliv-backend-test#readme'
   })
 })
 
