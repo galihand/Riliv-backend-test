@@ -18,7 +18,6 @@ module.exports = {
     "use_env_variable": "DATABASE_URL",
     "dialectOptions": {
       "ssl": {
-        "required": true,
         "rejectUnauthorized": false
       }
     }
