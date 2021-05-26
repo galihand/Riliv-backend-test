@@ -17,7 +17,10 @@ module.exports = {
     "dialect": "mysql",
     "use_env_variable": "DATABASE_URL",
     "dialectOptions": {
-      "ssl": true
+      "ssl": {
+        "required": true,
+        "rejectUnauthorized": false
+      }
     }
   }
 }
