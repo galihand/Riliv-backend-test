@@ -18,7 +18,7 @@ app.use('/api/item', item)
 app.use('/api/user/', user)
 app.use('/api/purchasing', purchasing)
 app.use('/api/report', report)
-app.use('/api/', (req, res) => {
+app.use('/', (req, res) => {
   res.json({
     status: 'success',
     message: 'This is API for Riliv Back End Development Test'
