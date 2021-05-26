@@ -17,8 +17,9 @@ module.exports = {
     "dialect": "mysql",
     "use_env_variable": "DATABASE_URL",
     "dialectOptions": {
-      "ssl": {
-        "rejectUnauthorized": false
+      ssl: {
+        require: true,
+        rejectUnauthorized: false
       }
     }
   }
